@@ -1,6 +1,6 @@
 {
   "name": "css-to-css.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compile css into js code that injects styles on the browser and server safe",
   "main": "index.js",
   "files": [
