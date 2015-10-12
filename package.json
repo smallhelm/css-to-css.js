@@ -1,0 +1,28 @@
+{
+  "name": "css-to-css.js",
+  "version": "1.0.0",
+  "description": "Compile css into a requireable css.js file that is also safe to require on the server.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallhelm/css-to-css.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smallhelm/css-to-css.js/issues"
+  },
+  "homepage": "https://github.com/smallhelm/css-to-css.js#readme",
+  "author": "smallhelm",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "rm index.js && node compile.js"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.5.0"
+  }
+}
