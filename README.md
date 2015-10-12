@@ -1,5 +1,5 @@
 # css-to-css.js
-Compile css into a requireable css.js file that is also safe to require on the server.
+Compile css into js code that injects styles on the browser and is safe to run on the server.
 
 ## How to use it
 ```js

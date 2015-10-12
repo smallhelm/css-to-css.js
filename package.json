@@ -1,7 +1,7 @@
 {
   "name": "css-to-css.js",
   "version": "1.0.0",
-  "description": "Compile css into a requireable css.js file that is also safe to require on the server.",
+  "description": "Compile css into js code that injects styles on the browser and server safe",
   "main": "index.js",
   "files": [
     "index.js"
