@@ -1,7 +1,9 @@
 var fs = require("fs");
 var UglifyJS = require("uglify-js");
 
-var template = UglifyJS.minify("./inject-css-fn.template.js").code;
+var template = UglifyJS.minify("./inject-css-fn.template.js", {
+  compress: {negate_iife: false},
+}).code;
 
 var lines = [];
 lines.push("module.exports = function(css){");
